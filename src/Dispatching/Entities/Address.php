@@ -71,7 +71,7 @@ final class Address implements Arrayable
         return $this->get('area');
     }
 
-    public function setArea(string $area)
+    public function setArea(?string $area)
     {
         $this->data['area'] = $area;
 
@@ -83,7 +83,7 @@ final class Address implements Arrayable
         return $this->get('place');
     }
 
-    public function setPlace(string $place)
+    public function setPlace(?string $place)
     {
         $this->data['place'] = $place;
 
@@ -95,7 +95,7 @@ final class Address implements Arrayable
         return $this->get('region');
     }
 
-    public function setRegion(string $region)
+    public function setRegion(?string $region)
     {
         $this->data['region'] = $region;
 
@@ -107,7 +107,7 @@ final class Address implements Arrayable
         return $this->get('location');
     }
 
-    public function setLocation(string $location)
+    public function setLocation(?string $location)
     {
         $this->data['location'] = $location;
 
@@ -119,7 +119,7 @@ final class Address implements Arrayable
         return $this->get('street');
     }
 
-    public function setStreet(string $street)
+    public function setStreet(?string $street)
     {
         $this->data['street'] = $street;
 
@@ -131,7 +131,7 @@ final class Address implements Arrayable
         return $this->get('house');
     }
 
-    public function setHouse(string $house)
+    public function setHouse(?string $house)
     {
         $this->data['house'] = $house;
 
@@ -143,7 +143,7 @@ final class Address implements Arrayable
         return $this->get('room');
     }
 
-    public function setRoom(string $room)
+    public function setRoom(?string $room)
     {
         $this->data['room'] = $room;
 
@@ -155,7 +155,7 @@ final class Address implements Arrayable
         return $this->get('slash');
     }
 
-    public function setSlash(string $slash)
+    public function setSlash(?string $slash)
     {
         $this->data['slash'] = $slash;
 
@@ -167,7 +167,7 @@ final class Address implements Arrayable
         return $this->get('building');
     }
 
-    public function setBuilding(string $building)
+    public function setBuilding(?string $building)
     {
         $this->data['building'] = $building;
 
@@ -179,7 +179,7 @@ final class Address implements Arrayable
         return $this->get('corpus');
     }
 
-    public function setCorpus(string $corpus)
+    public function setCorpus(?string $corpus)
     {
         $this->data['corpus'] = $corpus;
 
@@ -191,7 +191,7 @@ final class Address implements Arrayable
         return $this->get('letter');
     }
 
-    public function setLetter(string $letter)
+    public function setLetter(?string $letter)
     {
         $this->data['letter'] = $letter;
 
@@ -203,7 +203,7 @@ final class Address implements Arrayable
         return $this->get('hotel');
     }
 
-    public function setHotel(string $hotel)
+    public function setHotel(?string $hotel)
     {
         $this->data['hotel'] = $hotel;
 
@@ -215,7 +215,7 @@ final class Address implements Arrayable
         return $this->get('vladenie');
     }
 
-    public function setVladenie(string $vladenie)
+    public function setVladenie(?string $vladenie)
     {
         $this->data['vladenie'] = $vladenie;
 

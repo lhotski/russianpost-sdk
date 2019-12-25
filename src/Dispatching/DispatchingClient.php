@@ -25,6 +25,7 @@ use Appwilio\RussianPostSDK\Dispatching\Endpoints\Services\Services;
 use Appwilio\RussianPostSDK\Dispatching\Endpoints\Settings\Settings;
 use Appwilio\RussianPostSDK\Dispatching\Endpoints\Documents\Documents;
 use Appwilio\RussianPostSDK\Dispatching\Endpoints\PostOffices\PostOffices;
+use Appwilio\RussianPostSDK\Dispatching\Endpoints\Batches\Batches;
 
 /**
  * Class DispatchingClient.
@@ -34,6 +35,7 @@ use Appwilio\RussianPostSDK\Dispatching\Endpoints\PostOffices\PostOffices;
  * @property-read  Services     $services
  * @property-read  Settings     $settings
  * @property-read  PostOffices  $postoffices
+ * @property-read  Batches      $batches
  */
 final class DispatchingClient implements LoggerAwareInterface
 {
@@ -43,6 +45,7 @@ final class DispatchingClient implements LoggerAwareInterface
         'settings'    => Settings::class,
         'documents'   => Documents::class,
         'postoffices' => PostOffices::class,
+        'batches'     => Batches::class
     ];
 
     /** @var ApiClient */
