@@ -27,7 +27,7 @@ class CreateBatchRequest implements Arrayable
      * @param $ids
      * @return self
      */
-    public static function create($ids)
+    public static function create(array $ids)
     {
         return new self($ids);
     }
